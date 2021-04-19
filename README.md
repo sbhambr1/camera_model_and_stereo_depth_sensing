@@ -16,6 +16,8 @@ camera, we obtain the left and right camera parameters which includes the camera
 matrix and the distort coefficient matrix. The following are the images which we obtain from
 undistorting the images using the calibrated camera parameters.
 
+![image](https://user-images.githubusercontent.com/43840095/115313675-8fe75b80-a128-11eb-8e51-b1256d03efe6.png)
+
 ● Data format of the camera parameter files: ​ ‘.yml’
 
 ### Running the code:
@@ -48,6 +50,10 @@ camera poses P1 and P2, and also the disparity matrix Q. In the following figure
 annotated chessboard corners in the original images, followed by the undistorted images and in
 the end the corresponding undistorted and rectified images.
 
+![image](https://user-images.githubusercontent.com/43840095/115313791-c329ea80-a128-11eb-8706-71680a0ec88f.png)
+![image](https://user-images.githubusercontent.com/43840095/115313805-cae98f00-a128-11eb-9459-9806a6dfa0d6.png)
+![image](https://user-images.githubusercontent.com/43840095/115313823-d2a93380-a128-11eb-93ba-0a67ab5456c3.png)
+
 ● Data format of the camera parameter files: ​ ‘.yml’
 ● Please note: The camera parameters have been recalculated for reusability of the code on
 a new set of images as well.
@@ -78,6 +84,10 @@ this step, we calculate the ORB feature points for the left and right images and
 corresponding key points obtained from the two images. Due to the different number and depth
 of objects present in the given images, we show the results for the following two different views.
 
+![image](https://user-images.githubusercontent.com/43840095/115313852-e0f74f80-a128-11eb-8af8-5905c8df052c.png)
+![image](https://user-images.githubusercontent.com/43840095/115313871-e8b6f400-a128-11eb-97a8-883024ec7ad8.png)
+
+
 ● Please note: The camera parameters have been recalculated for reusability of the code on
 a new set of images as well.
 
@@ -105,6 +115,8 @@ distinguish objects nearer to the camera from those farther away. The process is
 depth triangulation and the output is known as the disparity map for a particular image. Due to
 the different number and depth of objects present in the given images, we show the results for the
 following two different views.
+
+![image](https://user-images.githubusercontent.com/43840095/115313889-f40a1f80-a128-11eb-9bb1-e0c6aba620ba.png)
 
 ● Please note: The camera parameters have been recalculated for reusability of the code on
 a new set of images as well.
