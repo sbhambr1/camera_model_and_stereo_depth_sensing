@@ -5,7 +5,7 @@
 2. numpy
 3. cv2
 
-## Task 1:
+## Task 1: Pinhole Camera Calibration
 
 ### Aim:
 The main aim of this task is to calibrate a pinhole camera model using a few images.
@@ -35,7 +35,7 @@ python3 ./code/task_1/task1.py --images_dir ./images/task_1/
 ./images/task_1/left_2.png
 
 
-## Task 2:
+## Task 2: Stereo Camera Calibration & Rectification
 
 ### Aim:
 The main aim of this task is to calibrate a stereo camera and then rectify it.
@@ -72,7 +72,7 @@ python3 ./code/task_2/task2.py --images_dir ./images/task_1/ --l_prefix left --r
 --undistort_rectified_img_l ./images/task_2/left_1.png
 --undistort_rectified_img_r ./images/task_2/right_1.png --save_images_dir ./output/task_2/
 
-## Task 3:
+## Task 3: Rotation & Translation of Views
 
 ### Aim: 
 The main aim of this task is to calculate the rotation and translation relationship of two
@@ -104,7 +104,7 @@ python3 ./code/task_3/task3.py --images_dir ./images/task_1/ --l_prefix left --r
 --detect_features_img_r
 ./images/task_3_and_4/right_7.png --save_images_dir ./output/task_3/
 
-## Task 4:
+## Task 4: Disparity Map
 
 ### Aim:
 The main aim of this task is to find the disparity map for a set of images.
